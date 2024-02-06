@@ -34,11 +34,11 @@
               <option value="eye">Eye</option>
             </select>
         </div>
-       <div id="login">
-         <button>Login</button>
+       <div class="button">
+         <button id="login">Login</button>
        </div>
-       <div id="Register">
-         <button>Register</button>
+       <div class="button">
+         <button id="register">Register</button>
        </div>
     </nav>
   </header>
