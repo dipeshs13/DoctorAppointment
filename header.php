@@ -50,9 +50,20 @@
             </ul>
           </li>
         </ul>
-       <div class="button">
-         <button id="login">Login</button>
-       </div>
+
+        <ul class="bt">
+       <li class="btn login">
+         <!-- <button id="login" class="log_in">Login</button> -->
+         <a href="#">Login
+
+
+         </a>
+          <ul class="btn_dropdown">
+             <li><a href="#">As a user</a></li>
+             <li><a href="#">As a doctor</a></li>
+          </ul>
+       </li>
+</ul>
        <div class="button">
          <button id="register">Register</button>
        </div>
