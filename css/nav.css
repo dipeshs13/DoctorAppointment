@@ -24,11 +24,15 @@ body{
 
     
 }
+.logo{
+    cursor: pointer;
+}
 
 .h1{
     /* border: 2px solid red; */
     position: absolute;
     left: 5%;
+    cursor: pointer;
 }
 .center_nav{
     /* border: 2px solid red;  */
@@ -40,11 +44,14 @@ body{
     width: 80%;
     border-radius: 2px;
     border: none;
-    background-color: #e4e4e4;
+    background-color: #ffff;
     /* background: transparent; */
     line-height: 35px;
     outline:none;
     margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -109,60 +116,70 @@ a{
 .category:hover .drop-down{
    display: block;
 }
-.bt{
-    margin-right: 40px;
+/* .bt{
     border: 2px solid red;
-    padding: 0px 20px;
-}
-.btn_dropdown{
-    position: absolute;
-    /* padding: 0.2rem 0.2rem; */
-    /* margin: 0.1rem 0rem; */
-    margin-right: 10%;
-    /* height: 100vh; */
-    /* top: 1%; */
-    margin-top: 3px;
-    /* margin-right: 10%; */
-    /* padding: 0px 20px; */
-    background:#FFFBDF ;
-    /* color: black; */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    font-size: 20px;
-    display: none;
-    padding: 0px 20px;
-    /* border: 2px solid black; */
+    margin-right: 30px;
+    padding: 0 20px;
     
 }
 .btn a{
     color: black;
-    padding: 2px 15px;
     font-size: 17px;
-    border: 2px solid black;
-    border-radius: 20px;
 }
-.btn_dropdown li{
-    border: 2px solid black;
-    padding: 0 10px;
-    line-height: 10px;
-    
-
+.btn_dropdown{
+    position: absolute;
+    /* padding: 0.1rem 0; */
+    /* padding-right: 2rem; */
+   /* border: 2px solid red;
+    /* margin-right: 50px; */
+    /* margin-top: 5px; */
+    /* width: 50px=; */
+   /* min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: none;
+}*/
+#unorder{
+   border: 2px solid black;
+   margin-right: 30px;
+   padding: 0px 20px;
+   cursor: pointer;
+   border-radius: 20px;
 }
-.btn_dropdown li a{
-    color: black;
-    /* border: 2px solid black; */
-    padding: 0 40px;
-    /* margin-right: 40px; */
-    border: none;
+#unorder li{
     font-size: 15px;
+}
+.login ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ #ul_login{
+    margin-top: 2px;
+    /* margin-right: ; */
+    padding: 10px 15px ;
+ }
+  .login:hover ul {
+    display: block;
+  }
 
-}
-.btn:hover {
-    /* background-color: black; */
-    color: #ffff;
-    border-radius: 0.5rem;
-}
+  .login ul li {
+    display: block;
+  }
+  .login{
+    margin-right: 10px;
+  }
+/* .btn_dropdown li a{
+    padding: 0px 20px;
+    margin-right: 0px;
+} */
 .login:hover .btn_dropdown{
+    display: block;
+ }
+ .btn_dropdown li{
     display: block;
  }
 .button{
@@ -177,46 +194,3 @@ a{
     background: transparent;
     cursor: pointer;
 }
-/* .btn_dropdown{
-    position: absolute;
-    padding: 0.2rem 0.2rem;
-    margin: 0.1rem 0rem;
-    background:#FFFBDF ;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    font-size: 20px;
-    display: none;
-    list-style: none;
-} */
-/* #login:hover .btn_dropdown{
-    display: block;
-} */
-
-.container{
-    /* border: 2px solid red; */
-    /* background-color: #FFFBDF; */
-    min-height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-    /* padding: 40px; */
-    
-    
-}
-
-.card{
-  /* border: 2px solid red; */
-  text-align: center;
-  height: 85%;
-  width: 50%;
-  margin-top: 10%;
-  margin-left: 25%;
-  box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.1);
-  transition: box-shadow 0.3s ease , transform 0.4s ease;
-  background-color: white;
-
-}
-.card:hover{
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    transform: scale(1.1);
-}
-

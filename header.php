@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -28,15 +29,7 @@
                 </button>
             </div>
         </div>
-        <!-- <div class="selection">
-            <label for="category">Category</label>
-            <select name="category" id="category_dropdown"
-              <option value="eye">Eye</option>
-              <option value="eye">Eye</option>
-              <option value="eye">Eye</option>
-              <option value="eye">Eye</option>
-            </select>
-        </div> -->
+    
         <ul>
           <li class="nav category">
             <a href="#">Category
@@ -51,19 +44,28 @@
           </li>
         </ul>
 
-        <ul class="bt">
+        <!-- <ul class="bt">
        <li class="btn login">
-         <!-- <button id="login" class="log_in">Login</button> -->
+         <button id="login" class="log_in">Login</button>
          <a href="#">Login
 
 
-         </a>
-          <ul class="btn_dropdown">
+          </a> --> 
+          <!-- <ul class="btn_dropdown">
              <li><a href="#">As a user</a></li>
              <li><a href="#">As a doctor</a></li>
           </ul>
        </li>
+</ul> -->
+<ul id="unorder">
+  <li class="login">Login
+    <ul id="ul_login">
+      <li id="user"><a href="#">As a user</a></li>
+      <li id="doctor"><a href="#">As a doctor</a></li>
+    </ul>
+  </li>
 </ul>
+
        <div class="button">
          <button id="register">Register</button>
        </div>

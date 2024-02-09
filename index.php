@@ -26,6 +26,7 @@ include "header.php";
     <div class="card" id="card-8">
     Card8
     </div>
+    
 </div>
 <?php
 include "footer.php";
