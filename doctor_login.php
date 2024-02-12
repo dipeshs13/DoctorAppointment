@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/login.css">
 <div class="contain">
     <div class="login">
-        <h1>Login (As Doctor)</h1>
+        <h1>Login Form</h1>
         <form action="">
             <div class="form_container">
                 <div class="form_control">

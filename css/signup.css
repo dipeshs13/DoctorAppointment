@@ -32,6 +32,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.signup > h1{
+    text-align: center;
+}
 label{
     font-size: 15px;
     margin-bottom: 5px;
