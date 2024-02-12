@@ -22,13 +22,13 @@
         </div>
         
             <div class="search">
-                <div>
+                <div id="search_">
                   <input type="text" id="text"/>
                   <button id="search_bar">
                   <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </div>
-                <div class="dropdown">Category
+                <div class="dropdown category">Category
       <ul class="dropdown-items">
         <li id="user"><a href="#">User</a></li>
         <li id="doctor"><a href="#">Doctor</a></li>
@@ -49,7 +49,7 @@
   <div class="dropdown">Register
       <ul class="dropdown-items">
         <li id="user"><a href="signup.php">User</a></li>
-        <li id="doctor"><a href="#">Doctor</a></li>
+        <li id="doctor"><a href="doctor_signup.php">Doctor</a></li>
       </ul>
 </div>
   
