@@ -15,65 +15,44 @@
     <nav id="nav_bar">
         <div class="logo">
             <img src="images/healthcare.png" alt="This is an logo" id="image1">
-
         </div>
+
         <div class="h1">
             <h1>Doctor Appointment System</h1>
         </div>
         
-        <div class="center_nav">
             <div class="search">
-                <input type="text" id="text"/>
-                <button id="search_bar">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
+                <div>
+                  <input type="text" id="text"/>
+                  <button id="search_bar">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+                <div class="dropdown">Category
+      <ul class="dropdown-items">
+        <li id="user"><a href="#">User</a></li>
+        <li id="doctor"><a href="#">Doctor</a></li>
+      </ul>
+</div>
             </div>
-        </div>
-    
-        <ul>
-          <li class="nav category">
-            <a href="#">Category
-            <span class="material-icons-outlined">
-              </span>
-            </a>
-            <ul class="drop-down">
-              <li><a href="#">Eye</a></li>
-              <li><a href="#">Eye</a></li>
-              <li><a href="#">Eye</a></li>
-            </ul>
-          </li>
-        </ul>
 
-        <!-- <ul class="bt">
-       <li class="btn login">
-         <button id="login" class="log_in">Login</button>
-         <a href="#">Login
+       
 
+<div class="header-menu">
+<div class="dropdown">Login
+      <ul class="dropdown-items">
+        <li id="user"><a href="#">User</a></li>
+        <li id="doctor"><a href="#">Doctor</a></li>
+      </ul>
+</div>
 
-          </a> --> 
-          <!-- <ul class="btn_dropdown">
-             <li><a href="#">As a user</a></li>
-             <li><a href="#">As a doctor</a></li>
-          </ul>
-       </li>
-</ul> -->
-<ul id="unorder">
-  <li class="login">Login
-    <ul id="ul_login">
-      <li id="user"><a href="#">As a user</a></li>
-      <li id="doctor"><a href="#">As a doctor</a></li>
-    </ul>
-  </li>
-</ul>
-<!-- <div class="dropdown">
-  <button class="dropbtn">Login</button>
-  <div class="dropdown-content">
-    <a href="#">As a user</a>
-    <a href="#">As a doctor</a>
-  </div>
-</div> -->
-       <div class="button">
-         <button id="register"><a href="signup.php">Register</a></button>
-       </div>
+  <div class="dropdown">Register
+      <ul class="dropdown-items">
+        <li id="user"><a href="#">User</a></li>
+        <li id="doctor"><a href="#">Doctor</a></li>
+      </ul>
+</div>
+  
+</div>
     </nav>
   </header>
