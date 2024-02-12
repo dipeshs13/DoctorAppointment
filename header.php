@@ -30,8 +30,8 @@
                 </div>
                 <div class="dropdown category">Category
       <ul class="dropdown-items">
-        <li id="user"><a href="#">User</a></li>
-        <li id="doctor"><a href="#">Doctor</a></li>
+        <li id="user"><a href="#">Specialist</a></li>
+        <li id="doctor"><a href="#">Specialist</a></li>
       </ul>
 </div>
             </div>

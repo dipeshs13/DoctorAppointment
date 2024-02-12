@@ -5,22 +5,18 @@
     list-style: none;
 }
 .container{
-    /* border: 2px solid red; */
-    /* background-color: #FFFBDF; */
     min-height: 80vh;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-    /* padding: 40px; */
-    /* border: 2px solid red; */
     width: 90%;
     margin: 0 auto;
     
 }
 
 .card{
-  /* border: 2px solid red; */
+  
   text-align: center;
-  height: 85%;
+  height: 90%;
   width: 50%;
   margin-top: 10%;
   margin-left: 25%;
