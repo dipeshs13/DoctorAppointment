@@ -48,7 +48,7 @@
 
   <div class="dropdown">Register
       <ul class="dropdown-items">
-        <li id="user"><a href="#">User</a></li>
+        <li id="user"><a href="signup.php">User</a></li>
         <li id="doctor"><a href="#">Doctor</a></li>
       </ul>
 </div>
