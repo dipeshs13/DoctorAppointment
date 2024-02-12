@@ -142,18 +142,18 @@ a{
 #unorder{
    border: 2px solid black;
    margin-right: 30px;
-   padding: 0px 20px;
+   padding: 0px 10px;
    cursor: pointer;
-   border-radius: 20px;
+   border-radius: 40px;
 }
 #unorder li{
-    font-size: 15px;
+    font-size: 20px;
 }
 .login ul {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 90px;
+    /* min-width: 90px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -170,7 +170,8 @@ a{
     display: block;
   }
   .login{
-    margin-right: 10px;
+    margin-right: 0px;
+    padding: 0px 5px;
   }
 /* .btn_dropdown li a{
     padding: 0px 20px;
@@ -194,3 +195,6 @@ a{
     background: transparent;
     cursor: pointer;
 }
+
+
+  

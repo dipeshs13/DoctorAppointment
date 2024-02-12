@@ -65,9 +65,15 @@
     </ul>
   </li>
 </ul>
-
+<!-- <div class="dropdown">
+  <button class="dropbtn">Login</button>
+  <div class="dropdown-content">
+    <a href="#">As a user</a>
+    <a href="#">As a doctor</a>
+  </div>
+</div> -->
        <div class="button">
-         <button id="register">Register</button>
+         <button id="register"><a href="signup.php">Register</a></button>
        </div>
     </nav>
   </header>
