@@ -41,8 +41,8 @@
 <div class="header-menu">
 <div class="dropdown">Login
       <ul class="dropdown-items">
-        <li id="user"><a href="#">User</a></li>
-        <li id="doctor"><a href="#">Doctor</a></li>
+        <li id="user"><a href="login.php">User</a></li>
+        <li id="doctor"><a href="doctor_login.php">Doctor</a></li>
       </ul>
 </div>
 
