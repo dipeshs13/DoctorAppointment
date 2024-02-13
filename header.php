@@ -41,15 +41,15 @@
 <div class="header-menu">
 <div class="dropdown">Login
       <ul class="dropdown-items">
-        <li id="user"><a href="login.php">User</a></li>
-        <li id="doctor"><a href="doctor_login.php">Doctor</a></li>
+        <li id="user"><a href="includes/login.php">User</a></li>
+        <li id="doctor"><a href="includes/doctor_login.php">Doctor</a></li>
       </ul>
 </div>
 
   <div class="dropdown">Register
       <ul class="dropdown-items">
-        <li id="user"><a href="signup.php">User</a></li>
-        <li id="doctor"><a href="doctor_signup.php">Doctor</a></li>
+        <li id="user"><a href="includes/signup.php">User</a></li>
+        <li id="doctor"><a href="includes/doctor_signup.php">Doctor</a></li>
       </ul>
 </div>
   

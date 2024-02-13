@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="css/signup.css">
+<link rel="stylesheet" href="../css/signup.css">
 <div class="contain">
     <div class="signup">
-        <h1>Register (As doctor)</h1>
+        <h1>Register (As User)</h1>
         <form action="">
             <div class="form_container">
                 <div class="form_control">
@@ -26,10 +26,6 @@
                 </div><div class="form_control">
                     <label for="confirm_password">Confirm Password</label>
                     <input type="text" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
-                </div>
-                <div class="form_control">
-                    <label for="Upload">Upload Your Document</label>
-                    <input type="file" name="upload" id="upload">
                 </div>
             </div>
             <div class="button_container">
