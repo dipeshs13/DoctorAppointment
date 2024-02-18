@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
 </head>
 <body>
   <header id="header">
@@ -28,10 +29,10 @@
                   <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </div>
-                <div class="dropdown category">Category
+                <div class="dropdown dropdown_cate">Category
       <ul class="dropdown-items">
-        <li id="user"><a href="#">Specialist</a></li>
-        <li id="doctor"><a href="#">Specialist</a></li>
+        <li class="category"><a href="category.php">Specialist</a></li>
+        <li class="category"><a href="category.php">Specialist</a></li>
       </ul>
 </div>
             </div>
@@ -56,3 +57,4 @@
 </div>
     </nav>
   </header>
+  

@@ -81,7 +81,7 @@ body{
   top: 40%;
   cursor: pointer;
 }
-.category{
+.dropdown_cate{
     position: absolute;
     left: 100%;
 }
